@@ -1,12 +1,15 @@
 import React from 'react'
 import "./Main.css"
-import BannerMain from '../BannerMain/BannerMain'
+import BannerMain from '../BannerMain/BannerMain';
+import NavBar from "../NavBar/NavBar"
+
+
 const Main = () => {
     return (
         <main>
-            <BannerMain/>
+            <BannerMain />
+            <NavBar />
             Main
-            
         </main>
     )
 }

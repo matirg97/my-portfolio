@@ -1,5 +1,5 @@
 .containerBanner{
-    background-color: #CED4DA;
+    background-color: #E0AAFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,10 @@
 .containerBanner-LogoAnimation{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 .imgLogoBanner{
