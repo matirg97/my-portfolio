@@ -4,7 +4,8 @@
 PRINCIPAL CONTAINER ////////////////////////////////////////////
 */
 .containerBanner{
-    background-color: #F2E9E4;
+    background-color: #C9ADA7;
+    background: linear-gradient(0deg, #C9ADA7 0%, #F2E9E4 5%);
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 1fr);
