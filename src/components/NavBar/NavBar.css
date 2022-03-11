@@ -1,0 +1,15 @@
+.nav-container{
+    position: sticky;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0%;
+}
+
+.nav-list-item{
+    margin: auto;
+}

@@ -4,7 +4,7 @@ import imageLogo from "../assets/blackLogo.png"
 import '@fontsource/roboto/300.css';
 
 
-const BannerMain = () => {
+const BannerMain = ({ref}) => {
 
     return (
         <div className='containerBanner'>
@@ -22,9 +22,11 @@ const BannerMain = () => {
                     </path>
                 </svg>
                 <div class="arrow">
+                    <a href="#aboutPage">
                     <span></span>
                     <span></span>
                     <span></span>
+                    </a>
                 </div>
             </div>
         </div>
