@@ -2,30 +2,21 @@ import React from 'react'
 import "./BannerMain.css"
 import imageLogo from "../assets/blackLogo.png"
 import '@fontsource/roboto/300.css';
-import Typography from '@mui/material/Typography';
 
 
 const BannerMain = () => {
 
     return (
         <div className='containerBanner'>
-            <div className='containerBanner-LogoAnimation' >
+            <div className='containerBanner-Logo' >
                 <div>
-                    <img src={imageLogo} className="imgLogoBanner"/>
-                </div>
-                <div className='containerBanner-Typo'>
-                    <Typography variant="h2" gutterBottom component="div" className='animate__animated animate__backInDown animate__slow'>
-                        Bienvenido
-                    </Typography>
-                    <Typography variant="h2" gutterBottom component="div" className='animate__animated animate__backInDown animate__slower'>
-                        Welcome
-                    </Typography>
+                    <img src={imageLogo} className="imgLogoBanner" />
                 </div>
             </div>
             <div className='wave'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#C9ADA7" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,186.7C384,192,480,160,576,154.7C672,149,768,171,864,181.3C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-            </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#C9ADA7" fill-opacity="1" d="M0,160L30,144C60,128,120,96,180,101.3C240,107,300,149,360,160C420,171,480,149,540,133.3C600,117,660,107,720,117.3C780,128,840,160,900,160C960,160,1020,128,1080,117.3C1140,107,1200,117,1260,128C1320,139,1380,149,1410,154.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+                </svg>
             </div>
         </div>
     )

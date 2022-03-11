@@ -2,6 +2,7 @@ import React from 'react'
 import "./Main.css"
 import BannerMain from '../BannerMain/BannerMain';
 import NavBar from "../NavBar/NavBar"
+import AboutMain from '../AboutMain/AboutMain';
 
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
         <main>
             <BannerMain />
             <NavBar />
+            <AboutMain/>
             Main
         </main>
     )
