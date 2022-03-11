@@ -36,6 +36,13 @@ footer,header,hgroup,menu,nav,section {
   display:block;
 }
 
+svg {
+    max-width: 100%;
+      height: auto;
+}
+
+
+
 nav ul {
   list-style:none;
 }

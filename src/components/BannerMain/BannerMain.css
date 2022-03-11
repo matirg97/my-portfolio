@@ -46,20 +46,12 @@ CONTAINER WHICH HAS THE LOGO
 WAVE SVG CSS >
 */
 .wave{
-    grid-area: wave;
     position: relative;
-    height: max-content;
-    width: auto;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
+    margin-top: auto;
 }
 
 .waveSVG{
-    height: 100%;
-    width: auto;
+    grid-area: wave;
 }
 
 /*
@@ -76,8 +68,8 @@ ARROW ANIMATION //
 }
 .arrow span{
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 2em;
+    height: 2em;
     border-bottom: 5px solid #9A8C98;
     border-right: 5px solid #9A8C98;
     transform: rotate(45deg);
@@ -101,5 +93,136 @@ ARROW ANIMATION //
     100%{
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
+/*
+MEDIA QUERY TO MOBILE >>>>>>>>>>>>>>>
+*/
+
+@media (max-width: 420px){
+    
+.arrow{
+    grid-area: wave;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-bottom: 5px solid #9A8C98;
+    border-right: 5px solid #9A8C98;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+}
+
+/*
+MEDIA QUERY TO TABLETS >>>>>>>>>>
+*/
+
+@media (min-width: 420px){
+    .arrow{
+        grid-area: wave;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .arrow span{
+        display: block;
+        width: 2em;
+        height: 2em;
+        border-bottom: 5px solid #9A8C98;
+        border-right: 5px solid #9A8C98;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    .arrow span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .arrow span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    @keyframes animate {
+        0%{
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px,-20px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: rotate(45deg) translate(20px,20px);
+        }
+    }
+}
+
+/*
+MEDIA QUERY TO LAPTOPS >>>>>>>>>>
+*/
+@media (min-width: 769px){
+
+    .arrow{
+        grid-area: wave;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .arrow span{
+        display: block;
+        width: 2em;
+        height: 2em;
+        border-bottom: 5px solid #9A8C98;
+        border-right: 5px solid #9A8C98;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+    .arrow span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .arrow span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    @keyframes animate {
+        0%{
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px,-20px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: rotate(45deg) translate(20px,20px);
+        }
     }
 }
