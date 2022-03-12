@@ -1,7 +1,7 @@
 .nav-container{
     position: sticky;
     top: 0;
-    background-color: #C9ADA7;
+    background-color: transparent;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100%;
@@ -19,4 +19,5 @@
 
 .nav-list-item{
     margin: auto;
+    padding-right: 5%;
 }

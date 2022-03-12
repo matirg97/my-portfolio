@@ -7,7 +7,7 @@ import AboutMain from '../AboutMain/AboutMain';
 
 const Main = () => {
     return (
-        <main>
+        <main className='main-principal-container'>
             <BannerMain />
             <NavBar />
             <AboutMain/>
