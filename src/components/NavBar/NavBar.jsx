@@ -11,19 +11,19 @@ const NavBar = () => {
             <ul className='nav-list'>
                 <li className='nav-list-item'>
                     <a href="#aboutPage">
-                    <Typography variant="overline" display="block" gutterBottom>
-                        about
-                    </Typography>
+                        <Typography variant="overline" display="block" gutterBottom>
+                            about
+                        </Typography>
                     </a>
                 </li>
                 <li className='nav-list-item'>
                     <Typography variant="overline" display="block" gutterBottom>
-                        contacto
+                        proyectos
                     </Typography>
                 </li>
                 <li className='nav-list-item'>
                     <Typography variant="overline" display="block" gutterBottom>
-                        proyectos
+                        contacto
                     </Typography>
                 </li>
             </ul>

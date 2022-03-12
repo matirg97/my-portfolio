@@ -10,13 +10,15 @@ const AboutMain = () => {
         <div id='aboutPage'>
             <div className='about-container-ImgText'>
                 <img className='about-container-img' src={circleMati} alt="Foto de Matias Godoy en forma circular" />
-                <Card sx={{ maxWidth: 750 }}>
+                <Card className="about-container-card" sx={{ maxWidth: 750 }}>
                     <CardContent>
                         <Typography variant="h5" component="div" align='center'>
                             ¿Quien es matiwebdev?
                         </Typography>
+                        <br />
                         <Typography variant="body2">
                             Hola! Antes que nada, bienvenido a mi página web! Espero que la puedas disfrutar inspeccionandola, así como yo disfrute programandola para ustedes.
+                            <br />
                             <br />
                             Mi nombre es Matias Godoy, soy de Capital Federal, Buenos Aires, Argentina.
                             <br />

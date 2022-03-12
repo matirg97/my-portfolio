@@ -15,3 +15,12 @@
     max-width: 100%;
     height: auto;
 }
+
+@media (max-width: 480px) {
+    .about-container-card{
+        width: 330px;
+    }
+    .about-container-ImgText{
+        height: 100%;
+    }
+}
