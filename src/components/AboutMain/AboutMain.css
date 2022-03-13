@@ -16,9 +16,43 @@
     height: auto;
 }
 
+.about-container-card{
+    opacity: 100%;
+}
+
+/*
+MOBILE MEDIA QUERY //////////////
+*/
+
 @media (max-width: 480px) {
     .about-container-card{
         width: 330px;
+    }
+    .about-container-ImgText{
+        height: 100%;
+    }
+}
+
+/*
+TABLET MEDIA QUERY //////////////
+*/
+
+@media (min-width: 480px){
+    .about-container-card{
+        width: 400px;
+    }
+    .about-container-ImgText{
+        height: 100%;
+    }
+}
+
+/*
+BIG SCREEN MEDIA QUERY //////////////
+*/
+
+@media (min-width: 768px){
+    .about-container-card{
+        width: auto;
     }
     .about-container-ImgText{
         height: 100%;
