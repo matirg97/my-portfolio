@@ -4,25 +4,46 @@
 
 
 .main-skills-container-carousel{
-    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: white;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     height: 300px;
-    width: 960px;
+    width: 100%;
     margin: auto;
     overflow: hidden;
+    position: relative;
     display: flex;
+    
 }
 
+.main-skills-container-carousel::before, .main-skills-container-carousel::after{
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    content: "";
+    height: 300px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+
+.main-skills-container-carousel::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.main-skills-container-carousel::before{
+		left: 0;
+		top: 0;
+}
 
 @keyframes cambio {
     0% {transform: translateX(0);}
     100% {transform: translateX(calc(-300px * 9));}
-    
 }
 
 .main-skills-container-carousel-imgs{
     display: flex;
-    animation: cambio 10s linear infinite;
+    animation: cambio 20s linear infinite;
     width: calc(300px * 18);
     align-items: center;
     justify-content: center;
@@ -33,4 +54,9 @@
     width: 300px;
     margin: auto;
     padding: auto;
+}
+
+.main-skills-container-carousel-imgs__svg{
+    width: 200px;
+    height: 200px;
 }
