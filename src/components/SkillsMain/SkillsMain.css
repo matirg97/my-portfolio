@@ -1,5 +1,5 @@
 .main-skills-container-title{
-    padding-left: 2%;
+    padding-top: 3%;
 }
 
 
@@ -7,7 +7,7 @@
     background: #F2E9E4;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     height: 300px;
-    width: 98%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -49,6 +49,8 @@
     justify-content: center;
 }
 
+
+
 .main-skills-container-carousel-imgs__slider{
     height: 200px;
     width: 300px;
@@ -59,4 +61,101 @@
 .main-skills-container-carousel-imgs__svg{
     width: 200px;
     height: 200px;
+}
+
+
+/*
+Skills and aptitudes box
+*/
+
+.main-skills-container-skills{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-skills-container-skills__block{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+.main-skills-container-skills__tech{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+
+
+/*MOBILE QUERY*/
+
+@media screen and (max-width: 480px)  {
+    .main-skills-container-carousel{
+        height: 150px;
+    }
+
+    .main-skills-container-carousel-imgs__slider{
+        height: 100px;
+        width: 300px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .main-skills-container-carousel-imgs__svg{
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+/*TABLETS QUERY*/
+
+@media screen and (min-width: 481px)  {
+    .main-skills-container-carousel{
+        height: 200px;
+    }
+
+    .main-skills-container-carousel-imgs__slider{
+        height: 150px;
+        width: 300px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .main-skills-container-carousel-imgs__svg{
+        width: 200px;
+        height: 150px;
+    }
+
+}
+
+/*BIG SCREEN QUERY*/
+
+@media screen and (min-width: 800px)  {
+    .main-skills-container-carousel{
+        height: 300px;
+    }
+
+    .main-skills-container-carousel-imgs__slider{
+        height: 200px;
+        width: 300px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .main-skills-container-carousel-imgs__svg{
+        width: 200px;
+        height: 200px;
+    }
+
 }

@@ -12,7 +12,7 @@ const AboutMain = () => {
                 <img className='about-container-img' src={circleMati} alt="Foto de Matias Godoy en forma circular" />
                 <Card className="about-container-card" sx={{ maxWidth: 750 }}>
                     <CardContent className="about-container-card-content">
-                        <Typography variant="h5" component="div" align='center'>
+                        <Typography variant="h5" component="div" align='center' fontFamily={"monospace"}>
                             ¿Quien es matiwebdev?
                         </Typography>
                         <br />
