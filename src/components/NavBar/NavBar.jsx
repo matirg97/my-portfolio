@@ -11,18 +11,18 @@ const NavBar = () => {
             <ul className='nav-list'>
                 <li className='nav-list-item'>
                     <a href="#aboutPage">
-                        <Typography variant="overline" display="block" gutterBottom>
+                        <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"} >
                             about
                         </Typography>
                     </a>
                 </li>
                 <li className='nav-list-item'>
-                    <Typography variant="overline" display="block" gutterBottom>
+                    <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
                         proyectos
                     </Typography>
                 </li>
                 <li className='nav-list-item'>
-                    <Typography variant="overline" display="block" gutterBottom>
+                    <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
                         contacto
                     </Typography>
                 </li>

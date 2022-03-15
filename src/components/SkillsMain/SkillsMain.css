@@ -1,0 +1,36 @@
+.main-skills-container-title{
+    padding-left: 2%;
+}
+
+
+.main-skills-container-carousel{
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 300px;
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+
+@keyframes cambio {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(calc(-300px * 9));}
+    
+}
+
+.main-skills-container-carousel-imgs{
+    display: flex;
+    animation: cambio 10s linear infinite;
+    width: calc(300px * 18);
+    align-items: center;
+    justify-content: center;
+}
+
+.main-skills-container-carousel-imgs__slider{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    padding: auto;
+}
