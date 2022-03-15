@@ -4,10 +4,10 @@
 
 
 .main-skills-container-carousel{
-    background: white;
+    background: #F2E9E4;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
     height: 300px;
-    width: 100%;
+    width: 98%;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -16,7 +16,7 @@
 }
 
 .main-skills-container-carousel::before, .main-skills-container-carousel::after{
-    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 45%);
     content: "";
     height: 300px;
     position: absolute;
