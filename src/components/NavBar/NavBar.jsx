@@ -17,9 +17,11 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className='nav-list-item'>
-                    <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
-                        proyectos
-                    </Typography>
+                    <a href="#projects-main-container">
+                        <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
+                            proyectos
+                        </Typography>
+                    </a>
                 </li>
                 <li className='nav-list-item'>
                     <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
