@@ -4,13 +4,15 @@ import imageLogo from "../assets/blackLogo.png"
 import '@fontsource/roboto/300.css';
 
 
-const BannerMain = ({ref}) => {
+const BannerMain = ({}) => {
 
     return (
         <div className='containerBanner'>
             <div className='containerBanner-Logo' >
                 <div>
+                    <a href="https://matiasgodoy.vercel.app/">
                     <img src={imageLogo} className="imgLogoBanner animate__animated animate__fadeInDown animate__slow" />
+                    </a>
                 </div>
             </div>
             <div className='wave'>
