@@ -24,9 +24,11 @@ const NavBar = () => {
                     </a>
                 </li>
                 <li className='nav-list-item'>
-                    <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
-                        contacto
-                    </Typography>
+                    <a href="#contactMain-container">
+                        <Typography variant="p" display="block" gutterBottom fontFamily={"monospace"}>
+                            contacto
+                        </Typography>
+                    </a>
                 </li>
             </ul>
         </nav>
