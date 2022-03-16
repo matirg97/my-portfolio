@@ -113,7 +113,7 @@ const SkillsMain = () => {
                         - Firebase
                     </Typography>
                     <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
-                        Git
+                        - Git
                     </Typography>
                     <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
                         - GitHub
