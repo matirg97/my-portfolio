@@ -103,7 +103,24 @@ MEDIA QUERY TO MOBILE >>>>>>>>>>>>>>>
 */
 
 @media (max-width: 420px){
-    
+    .containerBanner{
+        background-color: #C9ADA7;
+        background: linear-gradient(0deg, #C9ADA7 0%, #F2E9E4 7%);
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+                            "logo"
+                            "logo"
+                            "wave"
+                            ;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        width: auto;
+        margin: auto;
+    }
+
 .arrow{
     grid-area: wave;
     position: absolute;
