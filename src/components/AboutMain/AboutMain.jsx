@@ -17,15 +17,14 @@ const AboutMain = () => {
                         </Typography>
                         <br />
                         <Typography variant="body2">
-                            Hola! Antes que nada, bienvenido a mi página web! Espero que la puedas disfrutar inspeccionandola, así como yo disfrute programandola para ustedes.
+                            ¡Hola! Antes que nada, ¡Bienvenido a mi página web!
                             <br />
                             <br />
-                            Mi nombre es Matias Godoy, soy de Capital Federal, Buenos Aires, Argentina.
+                            Mi nombre es Matías Godoy, soy de Capital Federal, Buenos Aires, Argentina.
                             <br />
-                            Empecé a programar en Marzo de 2021, y si buen tuve algunos altos y bajos en mi carrera (en la cual creo que uno como estudiante/profesional nunca termina de aprender),
-                            creo que la programación tiene que ver mucho con esos tópicos: la constante prueba y error, el estancamiento en distintos proyectos , e infinidad de etc... Y es lo más normal del mundo!, aprender a lidiar con
-                            estas trabas es lo que más me gusta de programar, ya que la satisfacción que uno siente al resolver un error, al realizar un diseño llamativo y de gran alcance, y también al finalizar un proyecto,
-                            son incomparables.
+                            Empecé a programar en marzo de 2021 y, si bien tuve algunos altos y bajos en mi carrera (en la cual uno como estudiante/profesional siempre continúa aprendiendo), creo que la programación tiene que ver mucho con esos tópicos: la constante prueba y error, el estancamiento en distintos proyectos y muchos desafíos más que van surgiendo en el día a día. Esto para nosotros, los programadores, ¡es lo más normal del mundo! Aprender a lidiar con estas trabas es lo que más me apasiona de mi trabajo. La satisfacción que uno siente al resolver un error, realizar un diseño llamativo y de gran alcance (y también al finalizar un proyecto, por supuesto) es incomparable.
+                            <br />
+                            Por estas razones, te invito a explorar todos mis proyectos realizados hasta el momento. Espero puedas disfrutarlos tanto como yo lo hice al programarlos.
                         </Typography>
                     </CardContent>
                 </Card>

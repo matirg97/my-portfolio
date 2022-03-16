@@ -5,6 +5,7 @@ import NavBar from "../NavBar/NavBar"
 import AboutMain from '../AboutMain/AboutMain';
 import SkillsMain from '../SkillsMain/SkillsMain';
 import ProjectsMain from '../ProjectsMain/ProjectsMain';
+import ContactMain from '../ContactMain/ContactMain';
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
             <AboutMain/>
             <SkillsMain/>
             <ProjectsMain/>
+            <ContactMain/>
         </main>
     )
 }
