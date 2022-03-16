@@ -4,7 +4,7 @@ import BannerMain from '../BannerMain/BannerMain';
 import NavBar from "../NavBar/NavBar"
 import AboutMain from '../AboutMain/AboutMain';
 import SkillsMain from '../SkillsMain/SkillsMain';
-
+import ProjectsMain from '../ProjectsMain/ProjectsMain';
 
 const Main = () => {
     return (
@@ -13,7 +13,7 @@ const Main = () => {
             <NavBar />
             <AboutMain/>
             <SkillsMain/>
-            Main
+            <ProjectsMain/>
         </main>
     )
 }
