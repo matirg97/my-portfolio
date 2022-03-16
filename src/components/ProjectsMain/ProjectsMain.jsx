@@ -7,7 +7,7 @@ const ProjectsMain = () => {
     return (
         <div id='projects-main-container'>
             <Typography fontFamily={"monospace"} variant="h3">
-                Mis proyectos
+                Proyectos
             </Typography>
             <Card className='projects-main-container-card'>
                 <CardMedia
