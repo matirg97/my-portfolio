@@ -10,7 +10,7 @@ const BannerMain = ({}) => {
         <div className='containerBanner'>
             <div className='containerBanner-Logo' >
                 <div>
-                    <a href="http://www.matigodoy.com/">
+                    <a href="https://www.matigodoy.com/">
                     <img src={imageLogo} className="imgLogoBanner animate__animated animate__fadeInDown animate__slow" />
                     </a>
                 </div>
