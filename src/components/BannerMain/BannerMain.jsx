@@ -10,7 +10,7 @@ const BannerMain = ({}) => {
         <div className='containerBanner'>
             <div className='containerBanner-Logo' >
                 <div>
-                    <a href="https://matiasgodoy.vercel.app/">
+                    <a href="https://matigodoy.com/">
                     <img src={imageLogo} className="imgLogoBanner animate__animated animate__fadeInDown animate__slow" />
                     </a>
                 </div>
