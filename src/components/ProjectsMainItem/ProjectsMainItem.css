@@ -1,0 +1,16 @@
+#projects-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-main-container-card{
+    width: 95%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.projects-main-container-card__Media{
+    opacity: 80%;
+}
