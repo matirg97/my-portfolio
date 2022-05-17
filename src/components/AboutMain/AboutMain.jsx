@@ -20,9 +20,9 @@ const AboutMain = () => {
                             ¡Hola! Antes que nada, ¡Bienvenido a mi página web!
                             <br />
                             <br />
-                            Mi nombre es Matías Godoy, soy de Capital Federal, Buenos Aires, Argentina.
+                            Mi nombre es Matías Godoy, soy de Capital Federal, Argentina.
                             <br />
-                            Empecé a programar en marzo de 2021 y, si bien tuve algunos altos y bajos en mi carrera (en la cual uno como estudiante/profesional siempre continúa aprendiendo), creo que la programación tiene que ver mucho con esos tópicos: la constante prueba y error, el estancamiento en distintos proyectos y muchos desafíos más que van surgiendo en el día a día. Esto para nosotros, los programadores, ¡es lo más normal del mundo! Aprender a lidiar con estas trabas es lo que más me apasiona de mi trabajo. La satisfacción que uno siente al resolver un error, realizar un diseño llamativo y de gran alcance (y también al finalizar un proyecto, por supuesto) es incomparable.
+                            Empecé a programar en marzo de 2021 y, si bien tuve algunos altos y bajos en mi carrera (en la cual uno como estudiante/profesional siempre continúa aprendiendo), creo que la programación tiene que ver mucho con esos tópicos: la constante prueba y error, el estancamiento en distintos proyectos y muchos desafíos más que van surgiendo en el día a día. Esto para nosotros, los programadores ¡es lo más normal del mundo! Aprender a lidiar con estas trabas es lo que más me apasiona de mi trabajo. La satisfacción que uno siente al resolver un error, realizar un diseño llamativo y de gran alcance (y también al finalizar un proyecto, por supuesto) es incomparable.
                             <br />
                             Por estas razones, te invito a explorar todos mis proyectos realizados hasta el momento. Espero puedas disfrutarlos tanto como yo lo hice al programarlos.
                         </Typography>

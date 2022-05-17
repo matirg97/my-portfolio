@@ -28,7 +28,7 @@ const ProjectsMain = () => {
 
     return (
         <div id='projects-main-container'>
-            <Typography fontFamily={"monospace"} variant="h3">
+            <Typography fontFamily={"Roboto"} variant="h3" letterSpacing={10} fontWeight={"bold"}>
                 Proyectos
             </Typography>
             {projectsArray.length > 0 ? projectsArray.map(data => {

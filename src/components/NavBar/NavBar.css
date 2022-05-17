@@ -1,4 +1,4 @@
-.nav-container{
+.nav-container {
     position: sticky;
     top: 0;
     background-color: transparent;
@@ -8,16 +8,18 @@
     grid-template-areas: ". . nav";
 }
 
-.nav-list{
+.nav-list {
     grid-area: nav;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
     padding: 0%;
+    background: rgba(201, 173, 167, .7);
+    border-radius: 25px;
 }
 
-.nav-list-item{
+.nav-list-item {
     margin: auto;
     padding-right: 4%;
     padding-top: 3%;

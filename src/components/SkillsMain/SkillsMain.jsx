@@ -6,9 +6,6 @@ const SkillsMain = () => {
 
     return (
         <div className='main-skills-container'>
-            <Typography variant="h3" gutterBottom component="div" fontFamily={"monospace"} align='center' fontWeight={"light"} className="main-skills-container-title" >
-                Skills
-            </Typography>
             <div className='main-skills-container-carousel' >
                 <div className='main-skills-container-carousel-imgs'>
                     <div className='main-skills-container-carousel-imgs__slider' >
@@ -72,7 +69,7 @@ const SkillsMain = () => {
             </div>
             <div className='main-skills-container-skills'>
                 <div className='main-skills-container-skills__block'>
-                    <Typography variant='h5' component="div" align="left" fontFamily={"monospace"}>
+                    <Typography variant='h5' component="div" align="left" fontFamily={"monospace"} fontSize={30} >
                         Skills y aptitudes
                     </Typography>
                     <Typography variant='body1' component={"div"} align="center">
@@ -94,31 +91,31 @@ const SkillsMain = () => {
                     </div>
                 </div>
                 <div className='main-skills-container-skills__tech'>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18} >
                         - HTML & CSS
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - Sass
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - Bootstrap5
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - JavaScript
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - ReactJs
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - Firebase
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - Git
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - GitHub
                     </Typography>
-                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"}>
+                    <Typography variant='body1' component={"div"} align="center" fontFamily={"monospace"} fontSize={18}>
                         - Vercel
                     </Typography>
                 </div>
